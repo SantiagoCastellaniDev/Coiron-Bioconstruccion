@@ -12,40 +12,18 @@
     border: 5px solid green;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/*
-.titulo-galeria {
-    padding:60px;
-    background:black;
-    width: 50vw;
-    text-align: center;
-    margin:0 auto;
-    height:100px;    
-}
-.recuadro {
-    background:black;
-    width: 50vw;
-    text-align: center;
-    height:100px;  
-    margin: 0 auto;
-    position:relative;
-    top:80px;
-    justify-content: center;
 
+/*Carrousel*/
+
+.carousel-caption {
+    top:290px;
 }
 
-#titulo-galeria{
-    padding: 20px; 
-    
+.img-car {
+    height:420px;
 }
-
-.img-galerix {
-    height:50vh;
+img {
+    height:300px;
     width:auto;
 }
-.zzz {
-    color:yellow;
-}
-.carousel {
-    position: relative;
-    top:135px
-}*/
+
