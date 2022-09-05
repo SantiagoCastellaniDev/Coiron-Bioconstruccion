@@ -1,0 +1,21 @@
+/*Seccion PROYECTOS*/
+
+/*-------------------------------*/
+
+#proyectos {
+    background:black;
+    padding:100px 15px;
+    text-align:center;
+    color:white;
+    border: 5px solid yellow;
+}
+
+.nameProyecto{color: white}
+
+.proyecto {
+    margin:25px;
+}
+
+hr {
+    color:grey;
+}

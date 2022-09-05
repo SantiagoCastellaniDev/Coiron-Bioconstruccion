@@ -1,0 +1,42 @@
+
+/*-----------Header y presentacion----------------------------------*/
+
+.banner {
+    background:url(../../../assets/img/IMG_20211215_155149651_HDR.jpg);
+    width:auto;
+    height:120vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Qwitcher Grypen', cursive;
+    color:yellow;
+    text-align: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    display: flex;
+    border: 5px solid black;
+}
+.presentacion {
+    padding-top: 60px;
+    text-align: center;
+    margin:0 auto;
+    text-align: center;
+    justify-content: center;
+    margin:0 auto;
+}
+.presentacion h1 {    
+    font-size: 7rem;    
+}
+
+.presentacion h2 {
+    color:black;
+    font-size: 3rem;
+    margin-top: 200px;
+    margin-right: 25px;
+}
+ 
+@media only screen and (max-width: 580px) {
+    .presentacion h1 {font-size: 5rem}    
+}
+@media only screen and (max-width: 400px) {
+    .presentacion h1 {font-size: 3rem}    
+}

@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.seccion {
+    border-radius: 25px;
+}
+
+
+.content-center h2{
+    padding-bottom:30px;
+    font-family: 'Dancing Script', cursive;
+    color:yellow;
+    font-size: 2.5rem;
+}

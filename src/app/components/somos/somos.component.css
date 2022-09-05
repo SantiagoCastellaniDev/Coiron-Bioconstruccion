@@ -1,0 +1,31 @@
+#somos {
+    background:black;
+    height:max-content;
+    width: 90vw;
+    color:white;
+    text-align: center;
+    padding:100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border:5px solid red;
+}
+
+.miembros {
+    position: relative;
+    margin: 10px 0;
+}
+
+.detalles {
+    position: absolute;
+    color: var(--white-color);
+    bottom: 0;
+    left: 20px;
+}
+
+.member-details span {
+    font-size: 14px;
+}
+
+.member-details i {
+    padding: 0 5px;
+}
