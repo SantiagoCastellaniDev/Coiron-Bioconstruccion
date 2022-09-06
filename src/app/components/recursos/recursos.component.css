@@ -25,6 +25,8 @@ h4 {
 }
 ul  {
     list-style: none;
+    padding:0 0 0 0;
+    margin:0 auto
 }
 
 ul li {
@@ -32,8 +34,13 @@ ul li {
 }
 
 @media only screen and (max-width: 460px) {
-    .img-servicio {
-        height:75px;
-        width:100px;
-    }   
+    ul li iframe {
+        height:auto;
+        width:60vw;
+        margin:0 auto;
+    }
+    #recursos {
+        padding-left:10px;
+        padding-right:10px;  
+    } 
 }
