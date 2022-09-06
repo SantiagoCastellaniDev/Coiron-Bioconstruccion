@@ -13,4 +13,10 @@ export class NavComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  navegar(seccion: string) {
+    window.location.hash = '';
+    window.location.hash = seccion;   
+  }
+
+
 }

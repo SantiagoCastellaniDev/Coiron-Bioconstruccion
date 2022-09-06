@@ -1,4 +1,4 @@
-/*-----------Seccion ervicios----------------------------------*/
+/*-----------Seccion RECURSOS----------------------------------*/
 #recursos {
     background:black;
     height:max-content;
@@ -15,50 +15,21 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-
-.img-servicio {
-    height:150px;
-    width:200px;
-    margin-top:20px;
+p {
+    color:grey
 }
 
-.servicios {
-    text-align: center;
-
+h4 {
+    margin-top:25px;
+    color:orange;
 }
-.row {
-    margin:0 auto;
-}
-
-.tipos {
-    text-align: center;
-    margin:0 auto;
-    justify-content: center;
-}
-.tipo {
-    border: 1px solid grey;
-    border-radius: 20px;
-    margin:0 auto;
-    margin-top: 10px;
-    width:70vw;
-    text-align:center;
-    justify-content: center;
-    align-items: center;
-    padding:10px;
-   
-}
-.tipo h3 {
-    color:white;
-    font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
-
+ul  {
+    list-style: none;
 }
 
-.tipo p {
-    color:grey;
-    font-size: 0.8rem;
+ul li {
+    margin:25px
 }
-
 
 @media only screen and (max-width: 460px) {
     .img-servicio {

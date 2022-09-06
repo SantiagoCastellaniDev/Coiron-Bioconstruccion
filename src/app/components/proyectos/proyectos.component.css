@@ -8,14 +8,29 @@
     text-align:center;
     color:white;
     border: 5px solid yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nameProyecto{color: white}
 
 .proyecto {
-    margin:25px;
+    margin:0 auto;
 }
 
 hr {
     color:grey;
+}
+h5, p {
+    color:grey;
+}
+h3 {
+    margin-top:10px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    img {
+        height:auto;
+        width:75vw;
+    }   
 }
